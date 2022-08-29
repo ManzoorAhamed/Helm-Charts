@@ -1,6 +1,5 @@
 application:
   configmap:
-    properties1:
       game.properties: |
         enemies=aliens
         lives=3
@@ -9,7 +8,6 @@ application:
         secret.code.passphrase=UUDDLRLRBABAS
         secret.code.allowed=true
         secret.code.lives=30
-    properties2:
       ui.properties: |
         color.good=purple
         color.bad=yellow

@@ -5,9 +5,6 @@ metadata:
   name: {{ .Release.Name }}-configmap
   namespace: {{ .Release.Namespace }}
 data:
-  {{- with .Values.application.configmap.properties1 -}}
-  {{ toYaml . | nindent 2 }}
-  {{- end -}}
-  {{- with .Values.application.configmap.properties2 -}}
+  {{- with .Values.application.configmap -}}
   {{ toYaml . | nindent 2 }}
   {{- end -}}
