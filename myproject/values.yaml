@@ -13,3 +13,7 @@ application:
         color.bad=yellow
         allow.textmode=true
         how.nice.to.look=fairlyNice
+### Secrets values should be encoded
+  secrets:
+    username: TWFueckFoYW1lZAo=
+    password: UEFTU1dPUkQK
