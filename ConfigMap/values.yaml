@@ -1,4 +1,7 @@
 application:
+  configmaps:
+    gameproperties: values/dev/gameproperties.yaml
+    uiproperties: values/dev/uiproperties.yaml
   configmap:
       game.properties: |
         enemies=aliens
