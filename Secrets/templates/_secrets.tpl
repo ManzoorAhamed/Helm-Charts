@@ -8,6 +8,7 @@ metadata:
 data:
   {{- $secretFileValue := $.Files.Get $secretValue | fromYaml }}
   {{- toYaml $secretFileValue | nindent 2 }}
+---
   {{- end -}}
 {{- end -}}
 {{- end -}}
