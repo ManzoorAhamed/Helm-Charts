@@ -1,6 +1,6 @@
 application:
-  binaryConfigMaps:
-    binaryconfig: values/dev/binary.yaml
+#  binaryConfigMaps:
+#    binaryconfig: values/dev/binary.yaml
   configmaps:
     gameproperties: values/dev/gameproperties.yaml
     uiproperties: values/dev/uiproperties.yaml
