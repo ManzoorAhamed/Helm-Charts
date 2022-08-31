@@ -1,6 +1,7 @@
 {{- define "helm-base-chart.secret" -}}
 {{ if .Values.application.secrets }}
   {{- range $secretName, $secretValue := .Values.application.secrets }}
+  ## $secretName Variable = uname & $secretValue variable = values/dev/uname.yaml
 apiVersion: v1
 kind: Secret
 metadata:
